@@ -1,0 +1,80 @@
+/* Colors and fonts*/
+
+ body { 
+	background-color: #F67280;
+	color:  #6C5B7B;
+	font-family: 'Fjalla One', sans-serif;
+	front-size : 17px; 
+	text-align: center;
+
+	}
+
+h1,h2, h3 { 
+	font-family: 'Fjalla One', sans-serif;
+	}
+
+h1 { 
+	color: #C06C84;
+    font-family: Helvetica;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 32px;
+    text-transform: uppercase;
+
+	}
+
+
+h2 {
+	color: #355C7D;
+    font-family: Helvetica;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 32px;
+    text-transform: uppercase;
+    }
+
+a { 
+text-decoration: none;
+color: blue; 
+}
+
+
+a:hover { 
+	color:  yellow; 
+	}
+
+
+div{
+	background: rgb(255, 2327, 241);
+	padding: 30px; 
+	border-radius: 15px;
+	box-shadow: 0 15px 35px rgba(224, 255, 248, 0.3);
+	width: 40%;
+	margin: 0 auto;
+	border-top: 4px solid #F67280;
+	border-right: 4px solid #F67280;
+	border-bottom: 4px solid #F67280;
+	border-left: 4px solid #F67280;
+
+}
+.img-circle { border-radius: 45%;
+width: 30%; }
+.shadow { box-shadow: 5px 5px 3px black; }
+
+.list-inline { list-style: none;
+padding-left: 0px; }
+.list-inline li{ display: inline;
+padding: 10px; }
+.list-inline i { font-size: 50px45color:rgb(180, 180, 180)45 }
+.list-inline i:hover { col45: black; }
+
+.btn-blue { 
+	background-color: rgb(183, 184, 182);
+	color: #F67280;
+	padding: 15px 20px;
+	border-radius: 4px;
+	}
+.btn-blue:hover { 
+	background-color:black;
+	color: white;
+	}
