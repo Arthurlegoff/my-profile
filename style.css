@@ -34,8 +34,8 @@ h2 {
     }
 
 a { 
-text-decoration: none;
-color: grey; 
+    text-decoration: none;
+    color: grey; 
 }
 
 
@@ -57,7 +57,7 @@ div{
 	border-left: 4px solid #F67280;
 
 }
-.img-circle { border-radius: 45%;
+.img-circle { border-radius: 100%;
 width: 30%; }
 .shadow { box-shadow: 5px 5px 3px black; }
 
