@@ -35,7 +35,7 @@ h2 {
 
 a { 
 text-decoration: none;
-color: blue; 
+color: grey; 
 }
 
 
@@ -75,6 +75,14 @@ padding: 10px; }
 	border-radius: 4px;
 	}
 .btn-blue:hover { 
-	background-color:black;
+	background-color:yellow;
 	color: white;
 	}
+
+	@media (max-width:  1000px) {
+		div { width: 800px; }
+	}
+
+@media (max-width:  500px) {
+	div { width:  300px; }
+}
